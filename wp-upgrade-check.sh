@@ -10,7 +10,7 @@
 PATHS="/var/www"
 
 # Paths to ignore (should not be checked). End with semicolon ;
-IGNOREPATHS="/var/www/kludas;/var/www/noskrien.lv/old/wordpress;"
+IGNOREPATHS="/var/www/path1;/var/www/path2/old/wordpress;"
 WPCLI=/usr/local/bin/wp-cli
 WORDPRESSES=$(find $PATHS -type d -name "wp-includes" -print)
  
