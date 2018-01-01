@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>3.4</version>
-    <date>2018-01-01T19:26:31Z</date>
+    <date>2018-01-01T21:15:02Z</date>
     <groups>
         <group>
             <name>Wordpress</name>
@@ -104,7 +104,7 @@
                             <expression>{Template Wordpress:wp.update_available[{#FDIR}].nodata(129600)}=1</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>No update status data available for {#WPNAME}</name>
+                            <name>No update status data available for {#FDIRNAME}</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
@@ -120,7 +120,7 @@
                             <expression>{Template Wordpress:wp.update_available[{#FDIR}].regexp(^OK$)}=0</expression>
                             <recovery_mode>0</recovery_mode>
                             <recovery_expression/>
-                            <name>Wordpress update available for {#WPNAME}</name>
+                            <name>Wordpress update available for {#FDIRNAME}</name>
                             <correlation_mode>0</correlation_mode>
                             <correlation_tag/>
                             <url/>
