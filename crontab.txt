@@ -1,3 +1,0 @@
-# add update and instances check to crontab
-0 6 * * * /etc/zabbix/scripts/wp-upgrade-check.sh > /var/log/wp/update.log
-0 6 * * * /etc/zabbix/scripts/wp-lld-zabbix.py /var/www wp-config.php > /var/log/wp/wp-instances-zabbix.json
