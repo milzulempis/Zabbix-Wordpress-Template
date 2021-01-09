@@ -7,7 +7,7 @@ if [ "$#" -ne 1 ]; then
 fi
  
 # Using wp-cli - http://wp-cli.org/
-WPCLI=/usr/local/bin/wp-cli
+WPCLI=/usr/local/bin/wp
 WPUPDATE=""
 
 # Get core update

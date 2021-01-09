@@ -24,5 +24,8 @@ dicover_file.py is made as universal file discovery script. parameter 1 is searc
 parameter 2 is base64 encoded file name regex. It will return finded files array with full filename, basename, dirname, basename of dirname.
 base64 is used due to UnsafeUserParameters in zabbix.
 
+# Dependencies
+For update search in wp_find_updates.sh, wp-cli is used https://wp-cli.org/
+
 # Thanks
 Many thanks to laacz for https://gist.github.com/laacz/9952926
