@@ -9,6 +9,7 @@ Discovering all wordpress instances and checking for updates.
 * Copy wp_find_updates.sh and dicover_file.py to /etc/zabbix/scripts
 * Import Wordpress template to Zabbix
 * Configure checking times in WP Template->Discovery rules->Items prototypes as needed
+* Files should be accessible and executable by user "zabbix"
 
 # Some commands
 ```bash
@@ -16,7 +17,7 @@ mkdir /etc/zabbix/scripts
 cp wp_find_updates.sh /etc/zabbix/scripts/
 cp dicover_file.py /etc/zabbix/scripts/
 chmod 755 /etc/zabbix/scripts/wp*
-cp userparameter_wp.config /etc/zabbix/zabbix_agentd.d/
+cp userparameter_wp.conf /etc/zabbix/zabbix_agentd.d/
 ```
 
 # Additional info
