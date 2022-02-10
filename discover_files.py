@@ -29,7 +29,7 @@ def find_all(name, path):
     sys.exit(1)
   for root, dirs, files in os.walk(path):
     for fname in files:
-      if reobj.search(fname):
+      if reobj.search(bytes(fname, 'utf-8')):
         result.append(os.path.join(root, fname))
   return result
 
